@@ -1,5 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { api, type insertAnalysisSchema } from "@shared/routes";
+import { api, type insertAnalysisSchema } from "@shared/schema";
 import { z } from "zod";
 
 // Types derived from schema
